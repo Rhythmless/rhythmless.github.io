@@ -8,18 +8,56 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: rgb(41, 44, 48);
+
 }
 
 h2 {
-    font-size: 22pt; 
+    font-size: 22pt;
 }
 
 h3 {
-    font-size: 20pt; 
+    font-size: 20pt;
 }
 
 p {
-    font-size: 18pt; 
+    font-size: 18pt;
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    padding: 10px;
+    border: 1px slategray;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    color: beige;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    /* font-size: 17px; */
+}
+
+.navbar a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.navbar a:active {
+    color: rgb(245, 245, 212);
+}
+
+.navbarbrand {
+    font-size: xx-large;
+}
+
+.navbarlinks {
+    font-size: large;
+    padding-top: inherit;
 }
 
 .frontpage-image {
@@ -35,7 +73,6 @@ p {
 .frontpage-text {
     position: absolute;
     text-align: center;
-
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -45,7 +82,6 @@ p {
     font-size: 100pt;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .tagline {
@@ -66,10 +102,10 @@ footer {
     background-color: rgb(34, 36, 38);
 }
 
-.footerlead{
-    padding-top:20pt;
+.footerlead {
+    padding-top: 20pt;
 }
 
-.footertext{
+.footertext {
     padding: 10pt;
 }
