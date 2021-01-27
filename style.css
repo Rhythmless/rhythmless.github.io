@@ -4,6 +4,10 @@
     color: beige;
 }
 
+.text-center{
+    text-align: center;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -23,6 +27,12 @@ p {
     font-size: 18pt;
 }
 
+.container{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
 .navbar {
     position: -webkit-sticky;
     position: sticky;
@@ -30,16 +40,14 @@ p {
     top: 0;
     padding: 10px;
     border: 1px slategray;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar a {
     float: left;
     color: beige;
-    text-align: center;
     padding: 18px 18px;
     text-decoration: none;
-    /* font-size: 17px; */
 }
 
 .navbar a:hover {
@@ -68,11 +76,11 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: 1;
 }
 
 .frontpage-text {
     position: absolute;
-    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -98,7 +106,7 @@ p {
 } */
 
 footer {
-    text-align: center;
+
     background-color: rgb(34, 36, 38);
 }
 
