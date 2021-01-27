@@ -69,7 +69,7 @@ p {
 }
 
 .frontpage-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("frontpage.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/frontpage.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
