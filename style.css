@@ -4,7 +4,7 @@
     color: beige;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -12,7 +12,6 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: rgb(41, 44, 48);
-
 }
 
 h2 {
@@ -27,20 +26,24 @@ p {
     font-size: 18pt;
 }
 
-.container{
+.container {
     position: absolute;
     margin: 20px;
     width: auto;
 }
 
 .navbar {
+    /* keeps position at the top of the screen  */
     position: -webkit-sticky;
     position: sticky;
-    overflow: hidden;
     top: 0;
     padding: 10px;
     border: 1px slategray;
+    /* keeps this shown above front page image  */
     z-index: 2;
+    /* prevents elements to show on top of each other when browser width is small  */
+    height: 60px;
+    overflow: hidden;
 }
 
 .navbar a {
@@ -48,6 +51,7 @@ p {
     color: beige;
     padding: 18px 18px;
     text-decoration: none;
+    height: 60px;
 }
 
 .navbar a:hover {
@@ -68,10 +72,13 @@ p {
     padding-top: inherit;
 }
 
+.navtitles {
+    font-size: 40pt;
+}
+
 .frontpage-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/frontpage.jpg");
     height: 100%;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +113,6 @@ p {
 } */
 
 footer {
-
     background-color: rgb(34, 36, 38);
 }
 
